@@ -50,7 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: .center,
           children: [
-            Text(Environment.apiKey),
+            Text(Environment.appBaseUrl),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
